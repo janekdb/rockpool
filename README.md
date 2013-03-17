@@ -16,11 +16,11 @@ rockpool is built with Gradle 1.4.
 
 To build and run the unit tests execute this command from within project directory,
 
-  gradle build
+    gradle build
 
 To generate Eclipse project files run the eclipse task,
 
-  gradle eclipse
+    gradle eclipse
 
 Language Choice
 ===============
