@@ -36,8 +36,12 @@ please take a look around the ScalaTest web site at http://www.scalatest.org.
 Design Constraints
 ==================
 
-rookpool is developed under the "Rule of Five". This design rule mandates that no class, trait or
-object may have more than five methods and fields in total. So an object with four methods and one
-field is permitted while a class with three methods and three fields is disallowed.
+rookpool is developed under the "Rule of Five". This design rule mandates that,
 
+  1. No class, trait or object may have more than five methods and fields in total.
+  2. No class, trait or object may have more than 25 non-commenting lines of code.
+  3. No line may be longer than 125 characters.
+
+To clarify the first rule, an object with four methods and one field is permitted while a class
+with three methods and three fields is disallowed.
 
